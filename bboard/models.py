@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Bb(models.Model):
-    """Объявление"""
+    """Объявления"""
     title = models.CharField(verbose_name='Товар', max_length=50)
     content = models.TextField(
         verbose_name='Описание', null=True, blank=True)
